@@ -37,13 +37,13 @@ CUSTOM_EMBEDDING_URL=http://embedding-api:8000/embeddings
 ### 2.2. LLM モデルのダウンロード
 
 ```bash
-docker compose exec ollama ollama pull llama3
+docker compose exec ollama ollama pull gemma3:12b
 ```
 
 ### 2.3. 起動確認
 
 ```bash
-docker compose exec ollama ollama run llama3
+docker compose exec ollama ollama run gemma3:12b
 ```
 
 ## 3. 動作確認
